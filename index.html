@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">    
+    <title>Botanical Garden</title>
+  </head>
+  <body>
+    <header class="header">
+      <article class="header_container container">
+        <img class="header_logo"
+        src="./assets/logo.png"
+        title="logo"
+        alt="logo"/>
+        <div class="header_div">
+          <h2 class="header_heading">Mist Gardens</h2>
+          <p class="header_paragraph">Museum & Botanical Garden</p>
+        </div>
+        <nav class="navigation">
+          <h3 class="navigation_heading">Menu</h3>
+          <ul class="navigation_links">
+            <li class="navigation_links_item">
+              <a class="navigation_links_element" href="#">HOME</a>
+            </li>
+            <li class="navigation_links_item">
+              <a class="navigation_links_element" href="#">VISIT</a>
+            </li>
+            <li class="navigation_links_item">
+              <a class="navigation_links_element" href="#">EXHIBITIONS</a>
+            </li>
+            <li class="navigation_links_item">
+              <a class="navigation_links_element" href="#">PROGRAMS & EVENTS</a>
+            </li>
+            <li class="navigation_links_item">
+              <a class="navigation_links_element" href="#">STORE</a>
+            </li>
+          </ul>
+          <button class="button_membership button">MEMBERSHIP</button>
+          <img class="navigation_shadow shadow"
+          src="./assets/shadow.png"
+          title="shadow"
+          alt="shadow"/>
+          <img class="navigation_close_img"
+          src="./assets/close.png"
+          title="close"
+          alt="close"/>
+        </nav>
+        <img class="header_menu" 
+        src="./assets/menu.png"
+        title="menu"
+        alt="menu"/>
+      </article>
+    </header>
+    <main>
+      <section class="introduction">
+        <article class="introduction_container container">
+          <div class="introduction_div">
+            <h1 class="introduction_heading">A beautiful adventure awaits</h1>
+            <p class="introduction_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nunc</p>
+            <span class="introduction_span">
+              <button class="button_ticket button">Buy Tickets</button>
+              <button class="button_learn button">Learn More</button>
+            </span>
+          </div>
+          <!-- <img class="introduction_img"
+          src="./assets/introduction.png"
+          title="introduction"
+          alt="introduction"/> -->
+          <picture>
+            <source media="(max-width:767px)" srcset="./assets/introduction_mobile.png"/>
+            <source media="(max-width:1199px)" srcset="./assets/introduction_tablet.png"/>
+            <source media="(min-width:1200px)" srcset="./assets/introduction_desktop.png"/>
+            <img class="introduction_img" src="./assets/introduction_desktop.png"
+            alt="introduction"
+            title="introduction"/>
+          </picture>
+        </article>
+      </section>
+      <section class="discover">
+        <article class="discover_container container">
+          <img class="discover_img flowerpot_img"
+          src="./assets/flowerpot.png"
+          title="flowerpot"
+          alt="flowerpot"/>
+          <img class="discover_img armchair_img"
+          src="./assets/armchair.png"
+          title="armchair"
+          alt="armchair"/>
+          <div class="discover_div">
+          <h2 class="discover_heading">Discover yourself with nature</h2>
+          <p class="discover_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nunc</p>
+          <button class="button_discover button">Learn More</button>
+          </div>
+          <img class="discover_shadow shadow"
+          src="./assets/shadow.png"
+          title="shadow"
+          alt="shadow"/>
+        </article>
+      </section>
+    </main>
+  </body>
+  <script src="./app.js"></script>
+</html>

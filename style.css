@@ -1,0 +1,499 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #fff;
+    padding: 15px 0px;
+}
+
+.container {
+    width: 100%;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: none;
+}
+
+/* OPEN NAVIGATION START */
+
+.navigation_open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #475F45;
+    overflow: hidden;
+}
+
+.navigation_heading {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 25.3px;
+    text-align: center;
+    color: #fff;
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.navigation_links {
+    list-style: none;
+    text-align: center;
+    margin-top: 72px;
+    padding: 0;
+}
+
+.navigation_links_item {
+    margin-bottom: 40px;
+}
+
+.navigation_links_element {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    letter-spacing: 0.15em;
+}
+
+.button_membership {
+    width: 169px;
+    background-color: #475F45;
+    color: #fff;
+    border-color: #fff;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: 0.15em;
+}
+
+.navigation_shadow {
+    width: 434px;
+    opacity: 0.07;
+    position: absolute;
+    bottom: -79px;
+    right: -207px;
+} 
+
+.navigation_close_img {
+    width: 24px;
+    position: absolute;
+    top: 33px;
+    right: 15px;
+}
+
+/* OPEN NAVIGATION END */
+
+.header_logo {
+    width: 48.23px;
+}
+
+.header_div {
+    margin-left: 11.44px;
+}
+
+.header_heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 19.09px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #343D33;
+    margin: 0;
+}
+
+.header_paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12.45px;
+    line-height: 14.59px;
+    letter-spacing: 0.01em;
+    color: #333333;
+    margin: 0;
+}
+
+.header_menu {
+    width: 24px;
+    margin-left: auto;
+}
+
+.introduction {
+    padding-top: 26px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+
+.introduction_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction_div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.introduction_heading {
+    margin: 0;
+    color: #343D33;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37.4px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.introduction_paragraph {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    color: #414840;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.introduction_span {
+    display: flex;
+}
+
+.button {
+    padding: 15px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 16.41px;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0%;
+    border-style: solid;
+}
+
+.button_ticket {
+    width: 168.5px;
+    background-color: #475F45;
+    color: #fff;
+    border-color: #475F45;
+    margin-top: 24px;
+}
+
+.button_learn {
+    width: 168.5px;
+    background-color: #fff;
+    color: #475F45;
+    border-color: #475F45;
+    margin-top: 24px;
+    margin-left: 8px;
+}
+
+.introduction_img {
+    width: 100%;
+    margin-top: 56px;
+}
+
+.discover {
+    background-color: #343D33;
+    padding: 60px 0px;
+    position: relative;
+}
+
+.discover_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover_img {
+    width: 100%;
+}
+
+.armchair_img {
+    margin-top: 16px;
+}
+
+.discover_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover_heading {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37.4px;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.discover_paragraph {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.button_discover {
+    background-color: #343D33;
+    border-color: #fff;
+    color: #fff;
+    width: 165px;
+    margin-top: 24px;
+}
+
+.shadow {
+    opacity: 0.07;
+}
+
+.discover_shadow {
+    width: 195px;
+    position: absolute;
+    right: 0px;
+    bottom: 73px;
+}
+
+@media all and (min-width: 768px) {
+
+    .container {
+        margin: 0 auto;
+        width: 768px;
+        padding: 0;
+    }
+
+    .introduction {
+        padding: 56px 0px 57px 0px;
+    }
+
+    .introduction_heading {
+        font-size: 45px;
+        line-height: 49.5px;
+    }
+
+    .introduction_paragraph {
+        font-size: 22px;
+        line-height: 33px;
+        margin-top: 74px;
+    }
+
+    .button_ticket, .button_learn {
+        margin-top: 46px;
+        width: 186px;
+    }
+
+    .button_learn {
+        margin-left: 16px;
+    }
+
+    .introduction_img {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+    .discover_container {
+        align-items: flex-start;
+    }
+
+    .discover {
+        padding: 57px 0px;
+    }
+
+    .armchair_img {
+        margin-top: 30px;
+    }
+
+    .discover_div {
+        display: flex;
+        align-items: flex-start;
+        width: 75%;
+    }
+
+    .discover_heading {
+        margin-top: 30px;
+        font-size: 45px;
+        line-height: 49.5px;
+        text-align: start;
+    }
+
+    .button_discover {
+        margin-top: 47px;
+        margin-bottom: 0;
+        width: 185px;
+    }
+
+    .discover_paragraph {
+        margin-top: 47px;
+        margin-bottom: 0;
+        text-align: start;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .shadow {
+        width: 353.03px;
+        bottom: -11px;
+        right: 0px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+
+    .container {
+        margin: 0 auto;
+        width: 1200px;
+        padding: 0;
+    }
+
+    .navigation_shadow {
+        display: none;
+    }
+
+    .header_menu {
+        display: none;
+    }
+
+    .navigation_close_img {
+        display: none;
+    }
+
+    .navigation_heading {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .navigation_links {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navigation_links_element {
+        text-decoration: none;
+        color: #414840;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.41px;
+        letter-spacing: 0.15em;
+        margin-right: 30px;
+    }
+
+    .navigation_links_item {
+        margin-bottom: 0;
+    }
+
+    .navigation_links :hover {
+        color: #ff6600;        ;
+    }
+
+    .button_membership {
+        width: 169px;
+        background-color: #fff;
+        color: #475F45;
+        border-color: #475F45;
+    }
+
+    .introduction {
+        padding: 49px 0px 122px 0px;
+    }
+
+    .introduction_container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .introduction_div {
+        width: 528px;
+        align-items: flex-start;
+    }
+
+    .introduction_heading {
+        font-size: 57px;
+        line-height: 62.7px;
+        text-align: start;
+    }
+
+    .introduction_paragraph {
+        font-size: 25px;
+        line-height: 37.5px;
+        margin-top: 16px;
+        text-align: start;
+    }
+
+    .introduction_img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .button_ticket, .button_learn {
+        margin-top: 32px;
+    }
+
+    .discover {
+        padding: 96px 0;
+    }
+
+    .discover_container {
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;      
+    }
+
+    .flowerpot_img {
+        width: calc(50% - 50px);
+        order: 1;
+    }
+
+    .discover_div {
+        width: calc(50% - 50px);
+        order: 2;
+        margin: 0;
+    }
+
+    .discover_heading {
+        margin-top: 0;
+    }
+
+    .armchair_img {
+        width: 100%;
+        order: 3;
+        margin-top: 62px;
+        z-index: 1;
+    }
+
+    .shadow {
+        width: 534px;
+        bottom: 249px;
+    }
+}
