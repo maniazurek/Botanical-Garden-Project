@@ -343,6 +343,8 @@ body {
         margin-top: 47px;
         margin-bottom: 0;
         width: 185px;
+        line-height: 16px;
+        padding: 20px 40px;
     }
 
     .discover_paragraph {
