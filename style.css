@@ -281,7 +281,7 @@ body {
 .news {
   background-color: #fff;
   padding-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .news_heading {
@@ -324,14 +324,13 @@ body {
   width: 24px;
 }
 
-.post_img_plants {
-    width: 100%;
-    margin-top: 22px;
-}
-
 .post_img {
   width: 100%;
-  margin-top: 44px;
+}
+
+.plants_post {
+    margin-top: 22px;
+    margin-bottom: 44px;
 }
 
 .post_heading {
@@ -374,6 +373,7 @@ body {
   height: 2px;
   background-color: #c4c4c4;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .connect {
