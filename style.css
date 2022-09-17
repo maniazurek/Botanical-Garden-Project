@@ -30,7 +30,7 @@ body {
   align-items: center;
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: -100px;
   right: 0;
   left: 0;
   background-color: #475f45;
@@ -473,7 +473,7 @@ body {
 @media all and (min-width: 768px) {
   .container {
     margin: 0 auto;
-    width: 768px;
+    width: 738px;
     padding: 0;
   }
 
@@ -553,6 +553,26 @@ body {
     bottom: -11px;
     right: 0px;
   }
+}
+
+.news_post {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post_img {
+  width: 384px;
+}
+
+.post_desc {
+  width: 334px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post_heading, .post_paragraph_desc, .post_paragraph_date {
+  text-align: start;
+  margin: 0;
 }
 
 @media all and (min-width: 1200px) {
