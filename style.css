@@ -387,6 +387,11 @@ body {
   padding: 48px 0px;
 }
 
+.connect_container {
+  display: flex;
+  flex-direction: column;
+}
+
 .connect_logo {
   width: 48px;
   margin-right: 11.97px;
@@ -436,6 +441,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  order: 3;
 }
 
 .socials_heading {
@@ -559,6 +565,105 @@ body {
     bottom: -11px;
     right: 0px;
   }
+
+  .armchair_img {
+    margin-top: 15px;
+  }
+
+  .news {
+    padding: 57px 0;
+  }
+
+  .news_heading {
+    font-size: 45px;
+    line-height: 50px;
+    text-align: start;
+  }
+
+  .news_div {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .news_line {
+    width: 131px;
+  }
+
+  .news_post {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .plants_post {
+    margin-top: 61px;
+    margin-bottom: 65px;
+  }
+
+  .post_img {
+    width: 384px;
+  }
+
+  .post_desc {
+    margin: 0 0 0 20px;
+  }
+
+  .plants_post .post_desc {
+    margin: 30px 0 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .post_heading {
+    text-align: start;
+    margin: 0;
+  }
+
+  .post_paragraph_desc {
+    text-align: start;
+    margin: 12px 0;
+  }
+
+  .plants_post .post_paragraph_desc {
+    margin: 0;
+  }
+
+  .post_paragraph_date {
+    text-align: start;
+    margin: 0;
+  }
+
+  .connect {
+    padding-bottom: 50px;
+  }
+
+  .connect_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .connect_container_logo {
+    justify-content: start;
+  }
+
+  .connect_paragraph_desc {
+    text-align: start;
+    width: 221px;
+    font-size: 14px;
+    line-height: 150%;
+    order: 3;
+  }
+
+  .socials {
+    align-items: flex-start;
+    margin-left: 326px;
+  }
+
+  .socials_heading {
+    margin-top: 0;
+  }
+
 }
 
 @media all and (min-width: 1200px) {
