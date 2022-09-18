@@ -86,14 +86,24 @@
       </section>
       <section class="discover">
         <article class="discover_container container">
-          <img class="discover_img flowerpot_img"
-          src="./assets/flowerpot_desktop.png"
-          title="flowerpot"
-          alt="flowerpot"/>
-          <img class="discover_img armchair_img"
-          src="./assets/armchair.png"
-          title="armchair"
-          alt="armchair"/>
+          <picture class="flowerpot_img">
+            <source media="(max-width:767px)" srcset="./assets/flowerpot_mobile.png"/>
+            <source media="(max-width:1199px)" srcset="./assets/flowerpot_tablet.png"/>
+            <source media="(min-width:1200px)" srcset="./assets/flowerpot_desktop.png"/>
+            <img class="flowerpot_img"
+            src="./assets/flowerpot_desktop.png"
+            alt="flowerpot"
+            title="flowerpot"/>
+          </picture>
+          <picture class="armchair_img">
+            <source media="(max-width:767px)" srcset="./assets/armchair_mobile.png"/>
+            <source media="(max-width:1199px)" srcset="./assets/armchair_tablet.png"/>
+            <source media="(min-width:1200px)" srcset="./assets/armchair_desktop.png"/>
+            <img class="armchair_img"
+            src="./assets/armchair_desktop.png"
+            alt="armchair"
+            title="armchair"/>
+          </picture>
           <div class="discover_div">
           <h2 class="discover_heading">Discover yourself with nature</h2>
           <p class="discover_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nunc</p>
@@ -118,10 +128,15 @@
           </div>
 
           <div class="news_post plants_post">
-            <img class="post_img plants_img"
-            src="./assets/post-plants.png"
-            title="plants"
-            alt="plants"/>
+            <picture>
+              <source media="(max-width:767px)" srcset="./assets/post-plants_mobile.png"/>
+              <source media="(max-width:1199px)" srcset="./assets/post-plants_tablet.png"/>
+              <source media="(min-width:1200px)" srcset="./assets/post-plants_desktop.png"/>
+              <img class="post_img"
+              src="./assets/post-plants_desktop.png"
+              alt="plants"
+              title="plants"/>
+            </picture>
             <div class="post_desc">
               <h5 class="post_heading">Plants Around Us</h5>
               <p class="post_paragraph_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
@@ -130,10 +145,15 @@
           </div>
         
           <div class="news_post gardens_post">
-            <img class="post_img gardens_img"
-            src="./assets/post-gardens.png"
-            title="plants"
-            alt="plants"/>
+            <picture>
+              <source media="(max-width:767px)" srcset="./assets/post-gardens_mobile.png"/>
+              <source media="(max-width:1199px)" srcset="./assets/post-gardens_tablet.png"/>
+              <source media="(min-width:1200px)" srcset="./assets/post-gardens_desktop.png"/>
+              <img class="post_img"
+              src="./assets/post-gardens_desktop.png"
+              alt="gardens"
+              title="gardens"/>
+            </picture>
             <div class="post_desc">
               <h5 class="post_heading">Lush Gardens</h5>
               <p class="post_paragraph_desc">Lorem ipsum dolor sit amet, consectetur donec adipiscing elit. Tincidunt facilisis nunc lorem </p>
@@ -144,10 +164,15 @@
           <div class="post_line"></div>
 
           <div class="news_post nature_post">
-            <img class="post_img nature_img"
-            src="./assets/post-nature.png"
-            title="plants"
-            alt="plants"/>
+            <picture>
+              <source media="(max-width:767px)" srcset="./assets/post-nature_mobile.png"/>
+              <source media="(max-width:1199px)" srcset="./assets/post-nature_tablet.png"/>
+              <source media="(min-width:1200px)" srcset="./assets/post-nature_desktop.png"/>
+              <img class="post_img"
+              src="./assets/post-nature_desktop.png"
+              alt="nature"
+              title="nature"/>
+            </picture>
             <div class="post_desc">
               <h5 class="post_heading">Exotic Nature</h5>
               <p class="post_paragraph_desc">Lorem ipsum dolor sit amet, consectetur donec adipiscing elit. Tincidunt facilisis nunc lorem </p>
@@ -158,10 +183,15 @@
           <div class="post_line"></div>
 
           <div class="news_post soil_post">
-            <img class="post_img soil_img"
-            src="./assets/post-soil.png"
-            title="plants"
-            alt="plants"/>
+            <picture>
+              <source media="(max-width:767px)" srcset="./assets/post-soil_mobile.png"/>
+              <source media="(max-width:1199px)" srcset="./assets/post-soil_tablet.png"/>
+              <source media="(min-width:1200px)" srcset="./assets/post-soil_desktop.png"/>
+              <img class="post_img"
+              src="./assets/post-soil_desktop.png"
+              alt="soil"
+              title="soil"/>
+            </picture>
             <div class="post_desc">
               <h5 class="post_heading">It Starts with Soil</h5>
               <p class="post_paragraph_desc">Lorem ipsum dolor sit amet, consectetur donec adipiscing elit. Tincidunt facilisis nunc lorem </p>

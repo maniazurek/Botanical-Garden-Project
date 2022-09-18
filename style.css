@@ -222,12 +222,13 @@ body {
   align-items: center;
 }
 
-.discover_img {
+.flowerpot_img {
   width: 100%;
 }
 
 .armchair_img {
-  margin-top: 16px;
+  width: 100%;
+  margin-top: 8px;
 }
 
 .discover_div {
@@ -326,6 +327,11 @@ body {
 
 .post_img {
   width: 100%;
+}
+
+.news_post {
+  display: flex;
+  flex-direction: column;
 }
 
 .plants_post {
@@ -553,26 +559,6 @@ body {
     bottom: -11px;
     right: 0px;
   }
-}
-
-.news_post {
-  display: flex;
-  justify-content: space-between;
-}
-
-.post_img {
-  width: 384px;
-}
-
-.post_desc {
-  width: 334px;
-  display: flex;
-  flex-direction: column;
-}
-
-.post_heading, .post_paragraph_desc, .post_paragraph_date {
-  text-align: start;
-  margin: 0;
 }
 
 @media all and (min-width: 1200px) {
